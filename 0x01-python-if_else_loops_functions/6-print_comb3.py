@@ -6,4 +6,3 @@ for tens in range(0, 8):
         print("{:d}{:d}".format(tens, units), end=", ")
 tens += 1
 print("{:d}{:d}".format(tens, units))
-
