@@ -7,6 +7,8 @@ index = 1
 if __name__ == "__main__":
     if lenght == 1:
         print("{:d} arguments.".format(lenght - 1))
+    elif (lenght == 2):
+        print("{:d} argument:".format(lenght - 1))
     else:
         print("{:d} arguments:".format(lenght - 1))
     while index < lenght:
