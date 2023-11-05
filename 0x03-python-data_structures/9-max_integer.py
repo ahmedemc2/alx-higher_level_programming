@@ -2,5 +2,6 @@
 def max_integer(my_list=[]):
     if len(my_mist) < 1:
         return None
-    my_list.sort()
-    return my_list[-1]
+    new_list = my_list.copy()
+    new_list.sort()
+    return new_list[-1]
