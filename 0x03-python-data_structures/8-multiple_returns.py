@@ -4,5 +4,5 @@ def multiple_returns(sentence):
     if len(sentence) > 0:
         myTuple = len(sentence), sentence[0]
     else:
-        myTuple = None
+        myTuple = 0, "None"
     return myTuple
