@@ -4,10 +4,10 @@ def complex_delete(a_dictionary, value):
         keys = list(a_dictionary.keys())
         val = list(a_dictionary.values())
 
-        time = val.count("C")
+        time = val.count(value)
 
         for i in range(0, time):
-            pos = val.index("C")
+            pos = val.index(value)
             value = keys[pos]
             del a_dictionary[value]
             del keys[pos]
