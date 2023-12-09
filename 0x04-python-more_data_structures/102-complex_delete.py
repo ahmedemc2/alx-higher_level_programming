@@ -8,8 +8,8 @@ def complex_delete(a_dictionary, value):
 
         for i in range(0, time):
             pos = val.index(value)
-            value = keys[pos]
-            del a_dictionary[value]
+            valeur = keys[pos]
+            del a_dictionary[valeur]
             del keys[pos]
             del val[pos]
     return a_dictionary
