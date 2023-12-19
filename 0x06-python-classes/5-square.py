@@ -37,6 +37,7 @@ class Square:
             int: The size squared.
         """
         return self.__size**2
+
     def my_print(self):
         """ draw the table using hashtags """
         lenght = self.__size
@@ -47,4 +48,3 @@ class Square:
                 print()
         else:
             print()
-
