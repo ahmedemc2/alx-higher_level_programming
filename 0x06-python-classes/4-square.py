@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-""" class that define a square """
+"""class that define a square"""
 
 
 class Square:
     def __init__(self, size=0):
-        """ Constructor.
+        """Constructor.
 
         Args:
             size: lenght of a side of the square
@@ -13,7 +13,7 @@ class Square:
 
     @property
     def size(self):
-        """ Property for the lenght of a side of this square
+        """Property for the lenght of a side of this square
 
         Raises:
             TypeError: If size is not an integer.
