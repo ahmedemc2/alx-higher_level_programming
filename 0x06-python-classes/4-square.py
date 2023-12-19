@@ -7,13 +7,13 @@ class Square:
         """Constructor.
 
         Args:
-            size: lenght of a side of the square
+            size (int): lenght of a side of the square.
         """
         self.__size = size
 
     @property
     def size(self):
-        """Property for the lenght of a side of this square
+        """Property for the lenght of a side of this square.
 
         Raises:
             TypeError: If size is not an integer.
@@ -23,6 +23,13 @@ class Square:
 
     @size.setter
     def size(self, new_size):
+        """Setter for the lenght of a side of this square.
+
+        Raises:
+            TypeError: If size is not an integer.
+            ValueError: If size is less than 0.
+        """
+
         if type(new_size) != int:
             raise TypeError("size must be an integer")
         elif new_size < 0:
@@ -33,6 +40,6 @@ class Square:
         """Area of this square.
 
         Returns:
-            The size squared.
+            int: The size squared.
         """
         return self.__size**2
